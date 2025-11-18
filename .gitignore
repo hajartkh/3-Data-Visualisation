@@ -1,0 +1,15 @@
+# Docker / Spark specifieke uitsluitingen
+.ipynb_checkpoints/
+__pycache__/
+
+# Alle data uitsluiten
+data/
+
+# Excel bestanden uitsluiten
+*.xlsx
+*.xls
+
+# Jupyter / Python uitsluitingen
+# Voorkom dat grote output in notebooks wordt opgeslagen
+.ipynb_checkpoints
+venv/

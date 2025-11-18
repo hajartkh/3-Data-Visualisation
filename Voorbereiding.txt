@@ -1,0 +1,11 @@
+-) beperk locatie: heel vlaanderen? provincie antwerpen? stad antwerpen?
+-) visualiseer aantal ongv per voertuig (histogram)
+-) visualiseer aantal ongv per type ongeval (histogram)
+-) visualiseer geolocalisatie van de voertuigen
+
+
+interessant:
+-) onderscheid moment in dag: ochtend/overdag/avond/nacht of gewoon dag/nacht
+-) onderscheid weekdag vs weekend
+-) onderscheid tss seizoenen of feestdagen
+-) road condition (data geoloc) vs temperatuur grond (kmi)
