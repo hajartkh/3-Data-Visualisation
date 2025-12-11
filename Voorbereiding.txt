@@ -9,3 +9,24 @@ interessant:
 -) onderscheid weekdag vs weekend
 -) onderscheid tss seizoenen of feestdagen
 -) road condition (data geoloc) vs temperatuur grond (kmi)
+-) type wagen ivm locatie
+-) dodelijk en type wagen?
+
+
+
+Gecombineerde analyse tss dataset 1 en dataset2:
+ unieke keys:
+1) 
+JAAR: DT_YEAR_COLLISION
+MAAND: DT_MONTH_COLLISION
+PROVINCIE: TX_PROV_COLLISION_NL
+DAY/NIGHT: CD_DAY_NIGHT (1 = dag)
+TYPE WEG: TX_ROAD_TYPE_NL
+
+2) 
+JAAR: DT_YEAR_COLLISION
+MAAND:DT_MONTH_COLLISION
+PROVINCIE: TX_PROV_COLLISION_NL
+UUR: DT_TIME (omzetten naar dag nacht miss?)
+GEMEENTE: TX_MUNTY_COLLISION_NL
+TYPE WEG: CD_ROAD_TYPE_NL
